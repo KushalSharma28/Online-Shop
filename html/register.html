@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="#"> -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#login_btn
+		{
+    		background: #c0392b;
+			color: white;
+			margin-left: 38%; 
+		}
+	</style>
+</head>
+
+<body class="bg-primary">
+
+	<div class="container">
+
+		<form action="#" method="POST">
+
+			<div class="col-md-6 border bg-light" style="margin-top:2%; margin-bottom: 4%; margin-left: 25%; padding: 14px;"><br><br>
+				<div><h2 align="center">Place Your Order Here</h2></div><br><br>
+
+		    	<div class="form-group">
+					<label>Full Name:</label>
+					<input type="text" name="fname" class="form-control" id="fname" placeholder="Enter Full Name">
+				</div>
+					
+				<div class="form-group">
+					<label>Enter Mobile No.:</label>
+					<input type="text" name="roll" class="form-control" id="roll" placeholder="Enter Mobile No.">
+				</div>		
+
+				<div class="form-group">
+					<label>Enter Email:</label>
+					<input type="email" name="email" class="form-control" id="email" placeholder="Enter Email id">
+				</div>
+
+				<div class="form-group">
+					<label>Select Your Gender:</label>
+			    	<select  name="gender" class="form-control" id="gender" >
+                    	<option>-----Select Gender-----</option>
+                    	<option>Female</option>
+                    	<option>Male</option>
+                    	<option>Others</option>
+                	</select>
+				</div>
+
+				<div class="form-group">
+					<label>Delivered Address:</label>
+					<textarea class="form-control" placeholder="Enter your Address Here.."></textarea>
+				</div>		
+
+				<div class="form-group">
+					<label>State </label>
+					<select class="form-control" style="width: 100%;">
+						<option>-----Select State-----</option>
+						<option>Madhya Pradesh</option>
+					</select>
+				</div>
+				
+				<div class="form-group">
+					<label>City </label>
+					<select class="form-control" style="width: 100%;">
+						<option>-----Select City-----</option>
+						<option>Bhopal</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<input type="submit" name="submit" value="Order Now" id="login_btn" class="btn-lg">
+				</div>
+				
+			</div>
+
+		</form>
+		
+	</div>
+
+	<!-- <div class="container">
+		<form action="#" method="POST">
+			<div class="col-md-4 border bg-light" style="margin-top:6%; margin-bottom: 6%; margin-left: 35%; padding: 10px;">
+				<div>
+					<h2 align="center">Fill this form for your product checkout</h2>
+				</div>
+			
+				<div class="form-group">
+					<label>Full Name: </label>
+					<input type="text" name="" class="form-control" placeholder="Enter Full Name">
+				</div>
+				
+				<div class="form-group">
+					<label>Gender</label>
+					<select class="form-control" style="width: 100%;" placeholder="Choose Gender">
+						<option>Select</option>
+						<option>Female</option>
+						<option>Male</option>
+						<option>Others</option>
+					</select>
+				</div>
+			
+				<div>
+					<label>Mobile No. </label>
+					<input type="text" name="" class="form-control" placeholder="Enter Mobile No.">
+				</div>
+
+				<div>
+					<label>Email-Id </label>
+					<input type="text" name="" class="form-control" placeholder="Enter Email Id">
+				</div>
+
+				<div class="form-group">
+					<label>Delivered Address:</label>
+					<textarea class="form-control" placeholder="Enter your Address Here.."></textarea>
+				</div>		
+
+				<div class="form-group">
+					<label>State </label>
+					<select class="form-control" style="width: 100%;">
+						<option>-----State-----</option>
+						<option>Madhya Pradesh</option>
+					</select>
+				</div>
+				
+				<div class="form-group">
+					<label>City </label>
+					<select class="form-control" style="width: 100%;">
+						<option>-----City-----</option>
+						<option>Bhopal</option>
+					</select>
+				</div>
+			
+				<div class="form-group">
+					<input type="submit" class="form-control" name="" width="20">
+				</div>
+			</div>
+		</form>
+	</div> -->
+
+</body>
+</html>
+
+<!-- <div class="form-group">
+				<label>State</label>
+				<select id="states-select" class="form-control" onchange="updateCities()" style="width: 20%;">
+					<option value="" disabled selected>-----State-----</option>
+					<option>Madhya Pradesh</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>City</label>
+				<select id="cities-select" class="form-control" style="width: 20%;">
+					<option value="" disabled selected>-----City-----</option>
+					<option>Bhopal</option>
+				</select>
+			</div> -->

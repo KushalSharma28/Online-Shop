@@ -1,0 +1,714 @@
+/**
+* Custom css defined my developer
+*/
+
+.avenir_medium{
+    font-family: "Avenir Medium" !important;
+}
+
+.daterangepicker{
+    font-family: "Avenir Medium" !important;
+}
+
+.d-inherit{
+    display: inherit;
+}
+
+
+.icon-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.icon-small .icon-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.word-break-all {
+    word-break: break-all;
+}
+
+.h-vh {
+height: 100vh;
+}
+
+.mh-35 {
+max-height: 35px;
+}
+
+.p-l-2 {
+    padding-left: 2px;
+}
+
+.p-r-2 {
+    padding-right: 2px;
+}
+
+.red-circle, .refunded-circle {
+    background: #d91e18;
+}
+
+.pending-circle {
+    background: #fc4b6c;
+}
+
+.canceled-circle {
+    background: #ffb22b;
+}
+
+.expired-circle {
+    background: #333333;
+}
+
+.trial-expired-circle {
+    background: #928787;
+}
+
+.green-circle, .success-circle {
+    background: #6cda5d;
+}
+
+.yellow-circle {
+    background: #f9bf3b !important;
+}
+
+.light-red-circle {
+    background: #f9690e !important;
+}
+
+.blue-circle, .created-circle {
+    background: #c5eff7!important;
+}
+
+.live-circle {
+    background-color: #26c6da;
+}
+
+.light-blue-circle {
+    background: #5ae6d3;
+}
+
+.light-green-circle {
+    background-color: #cfefcb;
+}
+
+.magna-circle, .sent-circle {
+    background-color: #00897b;
+}
+
+.info-circle, .trial-circle {
+    background-color: #1e88e5;
+}
+
+.green-blue-circle {
+    background-color: #5ae6d3;
+}
+
+.dl{
+    display: inline-block;
+}
+
+.select-month select{
+    max-width: 300px;
+}
+
+
+
+/*Select 2 css*/
+
+
+.select2-container .select2-selection--single {
+    height: 38px !important;
+    border: 1px solid rgba(0, 0, 0, .15) !important;
+}
+
+.select2-container.select2-container--focus .select2-selection--single {
+    border-color: #5cb3fd !important;
+    outline: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px !important;
+}
+.select-country .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #67757c !important;
+}
+
+.customizer-plan-select .select2-container {
+    width: 200px !important;
+}
+.input-group.inputgroupnow select.custom-select2 {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-right: 0;
+    padding-right: 40px;
+    width: 100%;
+}
+
+.multiplan-checkout-select span.select2-container {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid rgba(0, 0, 0, .15) !important;
+    height: calc(1.5em + .75rem + 2px);
+}
+
+.custom-multiple-height .select2-container--default .select2-selection--multiple {
+    height: inherit;
+}
+
+.select2-container--default .select2-selection--multiple input.select2-search__field::-webkit-input-placeholder {
+    /* color: #999; */
+    /* color: #8e8e8e; */
+    color: #ACADAD;
+    padding-left: 5px;
+}
+
+/*Select 2 css  Ends*/
+
+.image-upload>input {
+    display: none;
+}
+
+.image-upload img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.image-upload label {
+    display: flex;
+    align-items: center;
+}
+
+.image-upload i.fa {
+    width: 50px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.btn-padding{
+    padding: 4px 8px 4px 8px !important;
+}
+
+.preview_image_container, .testimonial_loader {
+    display: none;
+}
+
+.min-w100px{
+    min-width: 100px;
+    width: 100% !important;
+}
+
+.exemptdisplay {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.exemptdisplay .select2-container--default{
+    width: 100% !important;
+}
+
+.ws-bs{
+    white-space: break-spaces;
+}
+
+.ql-editor{
+    min-height: 130px;
+}
+
+.ql-editor ol{
+    padding-left: 0 !important;
+}
+
+.ql-editor ul{
+    padding-left: 0 !important;
+}
+
+.ql-editor ul li:not(.ql-direction-rtl) {
+    padding-left: 12px !important;
+}
+
+.ql-editor ol li:not(.ql-direction-rtl) {
+    padding-left: 16px !important;
+}
+
+/**
+* Style Color Input Box
+*/
+.colorinput {
+    width: 80px;
+    background-color: #fff;
+    min-height: 31px !important;
+    font-size: 14px !important;
+    height: 31px;
+    padding: 2px 7px;
+    color: #67757c;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.colorpickerwrap>div>div {
+    padding: 3px !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, .15) !important;
+    border-left: none !important;
+}
+
+.colorpickerwrap>div>div:nth-child(2) {
+    right: 0px;
+    border: none !important;
+}
+
+/**
+*  Style Color Input Box
+*/
+
+.clear{
+    clear: both;
+}
+
+.starchecked, .startblank{
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+.startblank{
+    color: #EEF7FF;
+}
+
+.starchecked{
+    color:#FFCC00;
+}
+
+/* checkout custom radio css */
+.checkout-custom-radio [type=radio]:checked, .checkout-custom-radio [type=radio]:not(:checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkout-custom-radio [type=radio]+label {
+    margin-right: 20px;
+    border: 2px solid #bcbec0;
+    height: auto!important;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+.checkout-custom-radio [type=radio]+label {
+    padding-left: 15px!important;
+    padding: 11px 15px;
+}
+
+.checkout-custom-radio [type=radio]:checked+label .payment-checked {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.checkout-custom-radio [type=radio]+label .payment-checked {
+    display: none;
+}
+
+[type=radio]:checked, [type=radio]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+.checkout-custom-radio [type=radio]:checked+label {
+    border: 2px solid #20b276;
+    border-radius: 4px;
+    height: auto;
+    border: 2px solid #007bff!important;
+    box-shadow: 0px 2px 6px #ced4da;
+
+}
+
+.custom-multiple .select2-container--default .select2-search--inline .select2-search__field{
+    width: 100% !important;
+}
+
+.custom-multiple span.selection{
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #212529 transparent transparent transparent !important;
+}
+
+.card i.fas.fa-trash:hover, .card i.fas.fa-file-export:hover, .card i.fas.fa-search:hover, .card i.fas.fa-eye:hover, .card i.fas.fa-envelope:hover, .card i.fas.fa-print:hover {
+    color: #fff !important;
+    background-color: #007bff!important;
+    border: 1px solid #007bff!important;
+    cursor: pointer;
+}
+
+.plan-description img{
+    max-width: 100%;
+}
+
+.white-space-normal{
+    white-space: normal;
+}
+
+.plan-details img{
+    max-width: 100%;
+}
+
+.align-self-center{
+    align-self: center;
+}
+
+.short-links {
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.short-links-lg {
+    max-width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.long-llinks {
+    max-width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.long-xl-links {
+    max-width: 370px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* Customizer DatePicker Style Temp*/
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+    width: 49px !important;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+    padding: 0px 0px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    width: 1.1rem !important;
+    line-height: 1.1rem !important;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.react-datepicker__month {
+    margin: 0.3rem;
+}
+
+#second_counter_section div{
+    display: inline-block;
+    padding: 7px;
+    margin: 7px;
+    width: 80px;
+    border-radius: 7px; 
+}
+
+#second_counter_section span{
+    display: block;
+}
+
+.badge-primary1{
+    color: #212529;
+    background-color: #d4e2ff;
+}
+
+.font-bold1{
+    font-family: "Avenir Bold", sans-serif !important;
+}
+
+.font-demi1 {
+    font-family: "Avenir Demi", sans-serif !important;
+}
+
+.drp-selected{
+    display: none !important;
+}
+
+.modalDialog { overflow-y: auto; }
+
+.search-term-width{
+    width: 280px;
+}
+
+.select-custom-width .select2-hidden-accessible,.select-custom-width .select2-container{
+    width: 100% !important;
+}
+
+.anchor-color{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.failed-icon{
+        background: rgb(251,21,21);
+        color: #ffffff;
+        border: 10px solid rgb(251,21,21);
+        border-radius: 48px;
+        font-size: 55px;
+}
+
+.h-100{
+    height: 100%;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 10px 10px !important;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 29px;
+    line-height: 21px;
+    margin-right: 7px;
+  }
+  blockquote p {
+    display: inline;
+  }
+  #plan-description img {
+    max-width: 100%;
+}
+
+.outline-number-circle{
+    line-height: 21px !important;
+    border: 2px solid;
+}
+
+@media screen and (max-width: 991px) {
+    .top-search-wrapper .date-selector{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px) {
+    .container-wrap .container{
+        padding: 0px;
+    }
+
+    .card-body-addon{
+        /* padding-left: 0px;
+        padding-right: 0px; */
+    }
+
+    .container-wrap .card-body-checkout{
+        /* padding: 15px !important; */
+    }
+}
+
+.filter-dropdown{
+    max-width: 100%;
+}
+
+.subscription-filter .select2-container{
+    max-width: 100%;
+}
+
+.subscription-filter .dropdown.bootstrap-select{
+    max-width: 100%;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff !important;
+}    
+
+@media only screen and (max-width: 620px){
+    .webhook-filter .select-month {
+        margin-left: 15px; 
+    }
+    .webhook-filter .select-month.search {
+        margin-bottom: 15px; 
+    }
+}
+
+.custom-full-date .input-group > div:first-child{
+    position: relative;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.custom-full-date .input-group .react-datepicker-wrapper, .custom-full-date .input-group .react-datepicker__input-container{
+    display: inline-block;
+    width: 100%;
+}
+
+.minw-15 {
+    min-width: 15px;    
+}
+
+.minw-85 {
+    min-width: 85px;    
+}
+
+.p-b-2 {
+    padding-bottom: 2px !important;    
+}
+
+.uncategory-addon .addon_details_mobile {
+    border-top: 2px solid #eef7ff !important;
+}
+
+.uncategory-addon .addon_details_mobile:first-child {
+    border-top: 0 !important;
+    padding-top:0px;
+}
+
+.addons-categories .addon_details_mobile {
+    border-top: 2px solid #eef7ff !important;
+}
+
+.addons-categories .addon_details_mobile:first-child {
+    border-top: 0 !important;
+    padding-top:0px; 
+}       
+
+.addon_details_desktop .addon_name{
+    display: none;
+}
+    
+
+.addon_details_mobile {
+    display: block;
+    padding-top:15px; 
+}
+    
+.addon_details_desktop .addon_quantity{
+    min-width: 95px;
+    width: 130px;
+}
+    
+.addon_details_desktop .addon_quantity input{
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+.addon_details_desktop .addon_price{
+    text-align: left !important;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 25px;
+    font-family: "Avenir Demi"!important;
+}
+    
+.uncategory-addon .table-hover tbody tr:hover{
+    background-color: transparent !important;
+    border-left: 2px solid transparent !important;
+}
+    
+.addons-categories .table-hover tbody tr:hover{
+    background-color: transparent !important;
+    border-left: 2px solid transparent !important;;
+}
+
+.testimonial-container .border-bottom-primary2:last-child{
+    border-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 620px) {
+    html body .m-p-0{
+        padding: 0 !important;
+    }
+    html body .m-p-l-0{
+        padding-left: 0 !important;
+    }
+    html body .m-p-r-0{
+        padding-right: 0 !important;
+    }
+
+    .mm-0{
+        margin: 0 !important;
+    }
+
+     .m-font-18{
+        font-size:18px !important; 
+    }
+    html body .m-w-100px{
+        width: 100%;
+    }
+}
+
+span.btn-outline-primary:hover{
+    color: #ffffff !important;
+}
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+    a {
+        display: none;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    .no-print { display: none !important; }
+    .print { display: block !important; }
+}
+
+.invoice-setting .dropdown.show{
+    display: inline-block !important;
+}
+
+.m-t-9{
+    margin-top: 9px;
+}
+
+.overflow-check .table-responsive{
+    overflow-x: inherit !important;
+}
+
+.overflow-check .custom-table{
+    overflow-x: visible !important;
+}
+
+.invoice-popup-container#affiliateCommission .commission-modal-slideout.modal-lg{
+    max-width: 885px !important;
+}
+
+#nav-payment-gateways-tab .payment-gateway-images {
+    width: 12%;
+}
+
+.swal-text {
+    line-height: inherit !important;
+    text-align: center !important;
+}
+
+.filter-dropdown input, .filter-dropdown input::placeholder, .filter-dropdown textarea::placeholder, .filter-dropdown select, .filter-dropdown input::-webkit-input-placeholder {
+    font-size: 14px !important;
+}
+
+body.body-checkout{
+    background: none !important;
+}

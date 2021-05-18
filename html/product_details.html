@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/style-1.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+		var users = [
+  					'Scenery',
+  					'Gifts',
+  					'Registers',
+  					'Copies',
+  					'Steve Fox'
+				];
+
+		ul = document.getElementById("users-list");
+
+		var render_lists = function(lists)
+		{
+  			var li = "";
+  			for(index in lists)
+  			{
+    			li += "<li>" + lists[index] + "</li>";
+  			}
+  			ul.innerHTML = li;
+		}
+
+		render_lists(users);
+
+// lets filters it
+		input = document.getElementById('filter_users');
+
+		var filterUsers = function(event)
+		{
+  			keyword = input.value.toLowerCase();
+  			filtered_users = users.filter(function(user)
+  			{
+        		user = user.toLowerCase();
+       			return user.indexOf(keyword) > -1; 
+  			});
+  
+  			render_lists(filtered_users);
+		}
+
+		input.addEventListener('keyup', filterUsers);
+	</script>
+</head>
+<body class="bg-primary">
+	<section class="product" id="product">
+		<div class="container text-center">
+			<h1>DETAILS OF OUR PRODUCTS</h1><br><br>
+			<input type="text" placeholder="Search Users" id="filter_users"/>
+			<ul id="users-list"></ul>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/scenery.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title" id="scenery">Scenery</h2>
+						</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<!-- <a href="../html/register.html"><input type="submit" name="" value="Order Now"></a> -->
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/photo_frame-1.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title" id="photoframe">Photo Frames</h2>
+						</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/gift-2.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title" id="gift">Gifts</h2>
+						</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/toys.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Toys</h2>
+						</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/download-1.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Copies & Pens</h2>
+						</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/download-2.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Register & Pens</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/scenery.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Scenery</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/photo_frame-1.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Photo Frames</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/gift-2.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Gifts</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/toys.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Toys</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/download-1.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Copies & Pens</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/download-2.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Register & Pens</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/scenery.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Scenery</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/photo_frame-1.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Photo Frames</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card">
+						<img src="../img/gift-2.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">Gifts</h2>
+							</div>
+						<div>
+							<ul>
+								<li>abcd</li>
+								<li>abcd</li>
+							</ul>
+							<button class="btn btn-warning btn-md"><a href="../html/register.html">Order Now</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="footer">
+			<h5 class="text-center">Design & Developed by BK Stationary & Gift Center Copyright &copy;2021 All rights reserved</h5>
+		</footer>
+</body>
+</html>
