@@ -14,12 +14,36 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<style type="text/css">
 		#login_btn
 		{
     			background: #c0392b;
 			color: white;
 			margin-left: 38%; 
+		}
+		.border
+		{
+			margin-top:2%; 
+			margin-bottom: 4%; 
+			margin-left: 25%; 
+			padding: 14px;
+		}
+		@media(max-width: 479px)
+		{
+			.border
+			{
+				margin-top:2%; 
+				margin-bottom: 4%; 
+				margin-left: 0.5%; 
+				padding: 14px;
+			}
+			.form-control
+			{
+				width: 100%;
+			}
 		}
 	</style>
 </head>
@@ -30,7 +54,7 @@
 
 		<form action="#" method="POST">
 
-			<div class="col-md-6 border bg-light" style="margin-top:2%; margin-bottom: 4%; margin-left: 25%; padding: 14px;"><br><br>
+			<div class="col-md-6 border bg-light"><br><br>
 				<div>
 					<h2 align="center">Place Your Order Here</h2>
 				</div><br><br>
