@@ -2,7 +2,6 @@
 /*=====HEADER=======*/
 .bgimg
 {
-  /*background-image: url('../img/images-1.jpg');*/
   background-color: #164591;
   background-size: 100%;
   background-attachment: fixed;
@@ -82,7 +81,7 @@
 /*=========PRODUCTS========*/
 .product
 {
-  height: auto;/*1020px;*/
+  height: auto;
   width: 100%;
   padding: 60px 0px 50px;
 }
@@ -112,15 +111,6 @@
     z-index: 500;
   }
 }
-/*.card:hover
-{
-  p{color: #00838d}
-  .go-corner 
-  {
-    transition: opactiy 0.3s linear;
-    opacity: 1;
-  }
-}*/
 
 /*=======ABOUT==========*/
 .about .text
@@ -130,7 +120,6 @@
 }
 .about
 {
-  background-color: /*#36f2*/;
   height: 600px;
   padding: 100px 0px 60px;
   
@@ -205,53 +194,34 @@
   {
     height: 1200px;
   }
-  .portfolio
+  .product
   {
     height: 2700px;
   }
-  .ourteam
-  {
-    height: 1400px;
-  }
-}
-
-
-
-/*
-.card3 
-{
-  display: block;
-  top: 0px;
-  position: relative;
-  max-width: 262px;
-  background-color: #f2f8f9;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  overflow: hidden;
-  border: 1px solid #f2f8f9;
   
-  .go-corner 
+  .about .text
   {
-    opacity: 0.7;
+  text-align: center;
+  font-size: 30px;
   }
-
-  &:hover 
+  .about
   {
-    border: 1px solid #00838d;
-    box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
-    z-index: 500;
+    height: 100px;
+    margin-top: -40px;
+    margin-bottom: -400px;
+  }
+  .footer
+  {
+    height: 180px;
+    margin-top: 1500px;
+    background: #162c3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  .footer h5
+  {
+    line-height: 30px;
   }
 }
-
-.card3:hover 
-{
-  p{color: #00838d}
-  .go-corner 
-  {
-    transition: opactiy 0.3s linear;
-    opacity: 1;
-  }
-}
-*/
