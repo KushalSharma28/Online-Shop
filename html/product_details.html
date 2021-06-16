@@ -17,46 +17,6 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<script type="text/javascript">
-		var users = [
-  				'Scenery',
-  				'Gifts',
-  				'Registers',
-  				'Copies',
-  				'Steve Fox'
-			    ];
-
-		ul = document.getElementById("users-list");
-
-		var render_lists = function(lists)
-		{
-  			var li = "";
-  			for(index in lists)
-  			{
-    			li += "<li>" + lists[index] + "</li>";
-  			}
-  			ul.innerHTML = li;
-		}
-
-		render_lists(users);
-
-// lets filters it
-		input = document.getElementById('filter_users');
-
-		var filterUsers = function(event)
-		{
-  			keyword = input.value.toLowerCase();
-  			filtered_users = users.filter(function(user)
-  			{
-        		user = user.toLowerCase();
-       			return user.indexOf(keyword) > -1; 
-  			});
-  
-  			render_lists(filtered_users);
-		}
-
-		input.addEventListener('keyup', filterUsers);
-	</script>
 </head>
 <body class="bg-primary">
 	<section class="product" id="product">
@@ -320,5 +280,31 @@
 	<footer class="footer">
 		<h5 class="text-center">Design & Developed by BK Stationary & Gift Center Copyright &copy;2021 All rights reserved</h5>
 	</footer>
+	
+	<script>
+		const search = document.getElementById("filter_products");
+		console.log(search);
+		const productName = document.querySelectorAll(".card_body .card-title");
+
+		search.addEventListener("keyup", filterProducts);
+
+		function filterProducts(e)
+		{
+    			const text = e.target.value.toLowerCase();
+    			productName.forEach(function(product) 
+    			{
+        			const item = product.firstChild.textContent;
+                
+        			if (item.toLowerCase().indexOf(text) != -1) 
+        			{
+            				product.parentElement.parentElement.parentElement.style.display = "block"
+        			}
+        			else 
+        			{
+            				product.parentElement.parentElement.parentElement.style.display = "none"
+        			}
+    			});
+		}
+	</script>
 </body>
 </html>
